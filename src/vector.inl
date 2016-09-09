@@ -1,11 +1,11 @@
 /*
 
-    This file is part of libnmath.
+    This file is part of the libnmath.
 
     vector.inl
     Vector inline functions
 
-    Copyright (C) 2008, 2010 - 2013
+    Copyright (C) 2008, 2010, 2011
     Papadopoulos Nikolaos
 
     This library is free software; you can redistribute it and/or
@@ -590,8 +590,8 @@ inline Vector2f Vector2f::transform(Matrix3x3f &m)
 
 inline Vector2f Vector2f::transformed(Matrix3x3f &m)
 {
-	scalar_t nx = m.data[0][0] * x + m.data[0][1]* y + m.data[0][3];
-	scalar_t ny = m.data[1][0] * x + m.data[1][1]* y + m.data[1][3];
+	scalar_t nx = m.data[0][0] * x + m.data[0][1]* y + m.data[0][2];
+	scalar_t ny = m.data[1][0] * x + m.data[1][1]* y + m.data[1][2];
 	return Vector2f(nx, ny);
 }
 
