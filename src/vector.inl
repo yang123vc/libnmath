@@ -1,11 +1,11 @@
 /*
 
-    This file is part of libnmath.
+    This file is part of the libnmath.
 
     vector.inl
     Vector inline functions
 
-    Copyright (C) 2008, 2010 - 2013
+    Copyright (C) 2008, 2010, 2011
     Papadopoulos Nikolaos
 
     This library is free software; you can redistribute it and/or
